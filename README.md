@@ -3,6 +3,21 @@
 ## TL;DR
 This simple library allows you to read your [Suunto XML](https://www.suunto.com/en-us/Support/faq-articles/dm5/how-do-i-import--export-dive-logs-to-dm5/) files in any AngularJS application. I did this lib because I felt too limited by the [proprietary tool provided by Suunto](https://www.suunto.com/en-us/Support/software-support/dm5/) and wanted to build my own custom dashboards (annual temperature variation, impact on dives duration...).
 
+## Usage
+
+```
+npm install angular-suunto-parser
+```
+
+Get DM5Parser using AngularJS dependency injection and then simply pass it the files and a scope. It returns a promise resolved with an array of dives corresponding to each file in parameter:
+```javascript
+DM5Parser.parseFiles(files, $scope).then(function (dives) {
+    ...
+});
+```
+
+Detailed example available [here](https://github.com/FrequentlyMissedDeadlines/angular-suunto-parser-demo-app).
+
 ## Features
 ### Anonymization
 * The XML contains your device __Serial Number__. This library will automatically replace it by __"XXXXXXXX"__ to preserve your privacy.
@@ -16,6 +31,7 @@ Dates and numerical fields are casted directly if possible. If not, the ```Strin
 
 ## They are using angularjs-suunto-parser
 Feel free to open a PR to get your Open Source project listed here:
+* [angular-suunto-parser-demo-app](https://github.com/FrequentlyMissedDeadlines/angular-suunto-parser-demo-app)
 * ...
 
 ## Legal disclaimer

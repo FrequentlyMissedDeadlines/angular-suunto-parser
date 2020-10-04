@@ -6,6 +6,11 @@ angular.module('fmd.suunto.parser', [
 .factory('DM5Parser', ['$q', 'x2js', function ($q, x2js) {
 
     function cast(obj) {
+        if (obj === 'false') {
+            return false;
+        } else if (obj === 'true') {
+            return true;
+        }
         if (typeof obj === 'object') {
             var copy = angular.copy(obj);
             angular.forEach(copy, function(value, key) {

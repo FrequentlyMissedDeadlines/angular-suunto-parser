@@ -1,14 +1,14 @@
 const webpack = require("webpack");
 const path = require("path");
+const glob = require("glob");
 
 let config = {
-  entry: "./src/suunto-parser.js",
-  externals: {
-    angular: 'angular',
+  entry: {
+    main: glob.sync('./src/**/*.js')
   },
 
   output: {
-    path: path.resolve(__dirname, "./build"),
+    path: path.resolve(__dirname, "./dist"),
     filename: "./suunto-parser.js"
   }
 }
