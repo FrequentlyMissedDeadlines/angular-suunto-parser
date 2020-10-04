@@ -1,6 +1,6 @@
 {
   "name": "@frequentlymisseddeadlines/angular-suunto-parser",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Suunto DM5 XML files parser for AngularJS",
   "main": "index.js",
   "scripts": {
