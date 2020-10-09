@@ -1,6 +1,6 @@
 {
-  "name": "@frequentlymisseddeadlines/angular-suunto-parser",
-  "version": "1.0.3",
+  "name": "angular-suunto-parser",
+  "version": "1.0.4",
   "description": "Suunto DM5 XML files parser for AngularJS",
   "main": "index.js",
   "scripts": {
@@ -14,9 +14,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FrequentlyMissedDeadlines/angular-suunto-parser.git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   },
   "keywords": [
     "Suunto",
