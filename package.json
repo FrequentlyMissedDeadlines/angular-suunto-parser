@@ -1,17 +1,22 @@
 {
-  "name": "angular-suunto-parser",
+  "name": "@frequentlymisseddeadlines/angular-suunto-parser",
   "version": "1.0.3",
   "description": "Suunto DM5 XML files parser for AngularJS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "karma start --single-run --browsers PhantomJS",
     "watch": "webpack --watch",
     "build": "webpack"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FrequentlyMissedDeadlines/angular-suunto-parser.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "keywords": [
     "Suunto",
@@ -31,6 +36,7 @@
     "karma-cli": "^2.0.0",
     "karma-coverage": "^2.0.3",
     "karma-jasmine": "^4.0.1",
+    "karma-phantomjs-launcher": "^1.0.4",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12"
   },
