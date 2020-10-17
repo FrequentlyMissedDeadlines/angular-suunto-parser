@@ -1,6 +1,7 @@
 # angular-suunto-parser
 
 ![Node.js CI](https://github.com/FrequentlyMissedDeadlines/angular-suunto-parser/workflows/Node.js%20CI/badge.svg)
+![Node.js CD](https://github.com/FrequentlyMissedDeadlines/angular-suunto-parser/workflows/Node.js%20CD/badge.svg)
 [![volkswagen status](https://auchenberg.github.io/volkswagen/volkswargen_ci.svg?v=1)](https://github.com/auchenberg/volkswagen)
 
 ## TL;DR

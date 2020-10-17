@@ -29,8 +29,8 @@ angular.module('fmd.suunto.parser', [
         }
     }
 
-    function anonymizeAndCleanData(dive) {
-        var copy = angular.copy(dive);
+    function anonymizeAndCleanData(diveUncleared) {
+        var copy = angular.copy(diveUncleared);
         var dive = copy.Dive;
 
         dive.SerialNumber = 'XXXXXXXX';
