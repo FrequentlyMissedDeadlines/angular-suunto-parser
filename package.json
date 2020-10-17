@@ -1,6 +1,6 @@
 {
   "name": "angular-suunto-parser",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Suunto DM5 XML files parser for AngularJS",
   "main": "dist/angular-suunto-parser.js",
   "scripts": {
