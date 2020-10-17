@@ -1,6 +1,6 @@
 {
   "name": "angular-suunto-parser",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "description": "Suunto DM5 XML files parser for AngularJS",
   "main": "dist/angular-suunto-parser.js",
   "scripts": {
@@ -31,6 +31,7 @@
   "homepage": "https://github.com/FrequentlyMissedDeadlines/angular-suunto-parser#readme",
   "devDependencies": {
     "angular-mocks": "^1.8.0",
+    "jshint": "^2.12.0",
     "karma": "^5.2.3",
     "karma-chrome-launcher": "^3.1.0",
     "karma-cli": "^2.0.0",
