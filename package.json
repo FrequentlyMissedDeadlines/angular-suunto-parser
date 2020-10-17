@@ -1,15 +1,18 @@
 {
   "name": "angular-suunto-parser",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Suunto DM5 XML files parser for AngularJS",
-  "main": "index.js",
+  "main": "dist/angular-suunto-parser.js",
   "scripts": {
     "test": "karma start --single-run --browsers PhantomJS",
     "watch": "webpack --watch",
     "build": "webpack"
   },
   "files": [
-    "dist"
+    "README.md",
+    "package.json",
+    "LICENSE",
+    "dist/angular-suunto-parser.js"
   ],
   "repository": {
     "type": "git",

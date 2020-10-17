@@ -9,7 +9,7 @@ let config = {
 
   output: {
     path: path.resolve(__dirname, "./dist"),
-    filename: "./suunto-parser.js"
+    filename: "./angular-suunto-parser.js"
   }
 }
 
