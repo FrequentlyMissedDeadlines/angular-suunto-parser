@@ -1,6 +1,6 @@
 # angular-suunto-parser
 
-[![Version](https://img.shields.io/npm/v/angular-suunto-parser)](https://opensource.org/licenses/MIT)
+[![Version](https://img.shields.io/npm/v/angular-suunto-parser)](https://www.npmjs.com/package/angular-suunto-parser)
 ![build](https://github.com/FrequentlyMissedDeadlines/angular-suunto-parser/workflows/build/badge.svg)
 ![release](https://github.com/FrequentlyMissedDeadlines/angular-suunto-parser/workflows/release/badge.svg)
 [![codecov](https://codecov.io/gh/FrequentlyMissedDeadlines/angular-suunto-parser/branch/main/graph/badge.svg?token=6FSKL84WQ8)](https://codecov.io/github/FrequentlyMissedDeadlines/angular-suunto-parser?branch=master)
