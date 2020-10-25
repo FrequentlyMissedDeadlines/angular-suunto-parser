@@ -1,7 +1,9 @@
 # angular-suunto-parser
 
-![Node.js CI](https://github.com/FrequentlyMissedDeadlines/angular-suunto-parser/workflows/Node.js%20CI/badge.svg)
-![Node.js CD](https://github.com/FrequentlyMissedDeadlines/angular-suunto-parser/workflows/Node.js%20CD/badge.svg)
+![CI](https://github.com/FrequentlyMissedDeadlines/angular-suunto-parser/workflows/Node.js%20CI/badge.svg)
+![CD](https://github.com/FrequentlyMissedDeadlines/angular-suunto-parser/workflows/Node.js%20CD/badge.svg)
+[![codecov](https://codecov.io/gh/FrequentlyMissedDeadlines/angular-suunto-parser/branch/main/graph/badge.svg?token=6FSKL84WQ8)](https://codecov.io/github/FrequentlyMissedDeadlines/angular-suunto-parser?branch=master)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![volkswagen status](https://auchenberg.github.io/volkswagen/volkswargen_ci.svg?v=1)](https://github.com/auchenberg/volkswagen)
 
 ## TL;DR
