@@ -7,6 +7,8 @@
 [![Downloads (total)](https://img.shields.io/npm/dt/angular-suunto-parser)](https://www.npmjs.com/package/angular-suunto-parser)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+[![](https://nodei.co/npm/angular-suunto-parser.png?downloads=true&stars=true)](https://www.npmjs.com/package/angular-suunto-parser)
+
 ## TL;DR
 This simple library allows you to read your [Suunto XML](https://www.suunto.com/en-us/Support/faq-articles/dm5/how-do-i-import--export-dive-logs-to-dm5/) files in any AngularJS application. I did this lib because I felt too limited by the [proprietary tool provided by Suunto](https://www.suunto.com/en-us/Support/software-support/dm5/) and wanted to build my own custom dashboards (annual temperature variation, impact on dives duration...).
 
