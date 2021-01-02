@@ -1,10 +1,9 @@
 'use strict';
 
 angular.module('fmd.suunto.parser', [
-    'cb.x2js'
+    'fmd.x2js'
 ])
 .factory('DM5Parser', ['$q', 'x2js', function ($q, x2js) {
-
     function cast(obj) {
         if (obj === 'false') {
             return false;

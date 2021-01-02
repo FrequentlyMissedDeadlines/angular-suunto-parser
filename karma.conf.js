@@ -1,6 +1,3 @@
-// Karma configuration
-// Generated on Sun Oct 04 2020 12:59:18 GMT+0200 (GMT+02:00)
-
 module.exports = function(config) {
   config.set({
 
@@ -17,9 +14,7 @@ module.exports = function(config) {
     files: [
       'node_modules/angular/angular.js',
       'node_modules/angular-mocks/angular-mocks.js',
-      'node_modules/angular-x2js/dist/x2js.min.js',
-      'node_modules/angular-x2js/dist/x2js.min.js',
-      'node_modules/x2js/dist/x2js.min.js',
+      'node_modules/angular-x2js-wrapper/dist/angular-x2js-wrapper.js',
       'src/*.js',
       'src/**/*.js',
       'test/*.spec.js',

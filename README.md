@@ -18,8 +18,13 @@ This simple library allows you to read your [Suunto XML](https://www.suunto.com/
 npm install angular-suunto-parser
 ```
 
-Get DM5Parser using AngularJS dependency injection and then simply pass it the files and a scope. It returns a promise resolved with an array of dives corresponding to each file in parameter:
+Get **DM5Parser using AngularJS dependency injection** and then simply pass it the files and a scope. It returns a promise resolved with an array of dives corresponding to each file in parameter:
 ```javascript
+// Add the dependency to your module:
+angular.module('your_module_name', ['fmd.suunto'])
+...
+
+// Inject DM5Parser and you can then use it like this:
 DM5Parser.parseFiles(files, $scope).then(function (dives) {
     ...
 });
