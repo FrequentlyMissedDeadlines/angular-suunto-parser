@@ -1,6 +1,9 @@
 # Changelog
 
-## 1.0.15
+## 1.0.17
+* Fix [CVE-2020-28481](https://github.com/advisories/GHSA-fxwf-4rqh-v8g3)
+
+## 1.0.16
 * Removed [angular-x2js](https://github.com/cesarbarone/angular-x2js) and replaced it with [angular-x2js-wrapper](https://github.com/FrequentlyMissedDeadlines/angular-x2js-wrapper#readme)
 * Add various badges in Readme
 
