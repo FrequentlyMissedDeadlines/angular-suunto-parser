@@ -1,4 +1,6 @@
 # Changelog
+## 1.0.18
+* Update dependencies to fix several CVE.
 
 ## 1.0.17
 * Fix [CVE-2020-28481](https://github.com/advisories/GHSA-fxwf-4rqh-v8g3)
